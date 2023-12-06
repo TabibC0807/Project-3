@@ -211,13 +211,13 @@ summary_strat.comb = comb.df[,-1] %>%
 summary_strat.comb
 ```
 
-Before performing any analysis or evaluation, we need to compare the NHANES and framingham data and look at how to deal with missing data. The table below compares the common variables between the two datasets:
+Before performing any analysis or evaluation, we need to compare the NHANES and framingham data and look at how to deal with missing data. Table 1 below compares the common variables between the two dataset.
 
 ```{r, include=TRUE, echo = FALSE}
 summary_strat.comb
 ```
 
-Looking at the comparison table above, we can see that there are significant differences between the covariates of the data between the source and target data. All the p-values that show the significant difference in the variables measured. The table shows that all p-value are significant at level 0.05, except for BMI. This shows that transportability analysis is required to use the framingham model on different distributions of data. 
+Looking at the comparison table 1, we can see that there are significant differences between the covariates of the data between the source and target data. All the p-values that show the significant difference in the variables measured. The table shows that all p-value are significant at level 0.05, except for BMI. This shows that transportability analysis is required to use the framingham model on different distributions of data. 
 
 The comparison table also shows that there are a significant number of missing values from the target data. To deal with this we can use multiple imputation methods, however we must assume that the data is missing not at random. 
 
