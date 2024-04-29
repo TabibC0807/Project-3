@@ -2,7 +2,7 @@
 Project 3: Simulation Studies
 PHP2550 Project 3
 
-## Overview(from Dr. Alice Paul's canvas site):
+## Overview:
 This project is a collaboration with Dr. Jon Steingrimsson in the Biostatistics Department and focuses on evaluating a performance of a prediction model in a different population than it was originally developed and/or evaluated in. 
 
 Users of prediction models are usually interested in using model-derived predictions in some target population. For example, a healthcare system may want to deploy a risk prediction model to identify individuals at high risk for cardiovascular events among all patients receiving care. The data used for prediction model development, referred to as the source study data, are often data from randomized trials, large observational databases, or prospective cohort studies. Such datasets are typically not a random sample from the target population. As a result, the target population and the population underlying the source study data differ. As an example, the Framingham ATP-III model is often used to predict 10-year risk of cardiovascular events. This model was built using source data that had predominantly white participants and the models have been shown to generalize poorly to multi-ethnic populations. 
